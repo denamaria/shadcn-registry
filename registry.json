@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "my-registry",
+  "items": [
+    {
+      "name": "fancy-button",
+      "type": "registry:component",
+      "title": "Fancy Button",
+      "description": "A gradient button.",
+      "files": [
+        {
+          "path": "components/ui/fancy-button.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "super-card",
+      "type": "registry:component",
+      "title": "Super Card",
+      "description": "A custom card layout.",
+      "files": [
+        {
+          "path": "components/ui/super-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    }
+  ]
+}
